@@ -1,0 +1,25 @@
+{
+  "name": "@danielhammerl/pi-monitoring-api",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielhammerl/pi-monitoring-api.git"
+  },
+  "author": "mail@danielhammerl.de",
+  "license": "ISC",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/danielhammerl/pi-monitoring-api/issues"
+  },
+  "scripts": {
+    "build": "npm ci && tsc"
+  },
+  "homepage": "https://github.com/danielhammerl/pi-monitoring-api#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
